@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;400&family=Open+Sans:ital@1&display=swap');
+:root{
+    --cor-principal:#000000;
+    --cor-secundaria:#f6f6f6;
+    --cor-terciaria:#22d4fd;
+    --cor-hover:#272727;
+    --cor-quartearia:#33d51a;
+
+}
+.cabecalho{
+    padding: 2%;
+    background-color: var(--cor-principal);
+}
+.cabecalho_menu{
+   
+    display: flex;
+    justify-content: right;
+    list-style: none;
+
+    
+    
+
+    
+    
+}
+.cabecalho__menu__link{
+    margin-left: 15px;
+text-decoration: none;
+color: var(--cor-secundaria);
+text-transform: uppercase;
+
+}
+.cabecalho__menu__link:hover{
+    color: var(--cor-quartearia);
+}

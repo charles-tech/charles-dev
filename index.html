@@ -4,23 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/apresentacao.css">
-    <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/apresentacao.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
     <title>Charles-Dev</title>
 </head>
+
 <body>
-    <header></header>
+
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="projeto.html">Projetos</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Curriculo</a>
+        </nav>
+    </header>
+
+
     <main class="apresentacao">
+
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo"> Projetos Web  para <strong class="titulo_destaque"> melhor apresentar o seu negócio. </strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Sou Charles Miranda, desenvoledor Front-end com especialidade em React, Html, Css e Java Script. Ajudo empresas a construir novas funcionalidades de gestão.</p>
-        <div class="apresentacao__links">
-            <a class="apresentacao__links__link" href="#">Projetos</a>
-            <a class="apresentacao__links__link" href="#">contato</a>
-        </div>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Charles Miranda, tenho 15 anos de expêriencia em gestão administrativa. </p>
+            <p class="apresentacao__conteudo__texto">Desenvoledor Front-end com especialidade em React, Html, Css e Java Script. </p>
+                
+            
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links_subtitulos">Acesse minhas redes:</h2>
+            
+               
+                <a class="apresentacao__links__link" href="https://github.com/charles-tech">
+                    <img class="icones" src="assets/github.png" alt="">
+                    GitHub</a>
+
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/charles-miranda-9a3b0215b/">
+                    <img class="icones" src="assets/linkedin1.png" alt="">
+                    Linkedin</a>
+            
+                <a class="apresentacao__links__link" href="https://wa.me/554734367002">
+                    <img class="icones" src="assets/whatsapp.png" alt="">
+                    Whatsaap</a>
+            </div>
         </section>
-        <img src="img/charles.jpeg" alt="Foto do programador">
+
+        <img class="programador" src="assets/charles.jpeg" alt="Foto do programador">
+
     </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Charles Miranda</p>
+    </footer>
     
 </body>
 </html>
