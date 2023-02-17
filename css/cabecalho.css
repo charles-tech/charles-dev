@@ -8,14 +8,16 @@
 
 }
 .cabecalho{
+    display: flex;
+    justify-content: center;
     padding: 2%;
     background-color: var(--cor-principal);
 }
 .cabecalho_menu{
    
     display: flex;
-    justify-content: right;
-    list-style: none;
+    gap: 10px;
+    text-decoration: none;
 
     
     
@@ -32,4 +34,15 @@ text-transform: uppercase;
 }
 .cabecalho__menu__link:hover{
     color: var(--cor-quartearia);
+    text-decoration: underline;
+
+}
+
+@media(max-width: 1200px){
+    .cabecalho{
+        padding: 10%;
+justify-content: center;    }
+    .cabecalho_menu{
+        justify-content: center;
+    }
 }
