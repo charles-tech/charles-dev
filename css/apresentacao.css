@@ -129,6 +129,10 @@ color: var(--cor-quartearia);
     }
     .programador{
         width: 15.62rem;
+
+    }
+    .apresentacao__conteudo{
+        gap: 1.5rem;
     }
     
   
