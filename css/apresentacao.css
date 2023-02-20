@@ -123,11 +123,13 @@ color: var(--cor-quartearia);
     .apresentacao__links{
         flex-wrap: wrap;
     }
-    .apresentacao__conteudo{
-        width: 160px;
+   
+    .texto-midia{
+        width: 15.62rem;
     }
-    .apresentacao__conteudo__texto{
-        width: 150px;
+    .programador{
+        width: 15.62rem;
     }
+    
   
 }
