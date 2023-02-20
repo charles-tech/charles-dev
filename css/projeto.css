@@ -7,17 +7,18 @@
 .projeto{
     margin-top: 10px;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     margin-bottom: 90px;
-    padding: 10%;
+    padding: 8%;
+    gap: 20px;
 }
 .preco{
-    width: 640px;
-    height: 400px;
+    width: 1000px;
+    height: 750px;
 }
 .producao{
-    width: 640px;
-    height: 400px;
+    width: 1000px;
+    height: 750px;
 }
 .div-preco{
     color: white;
@@ -43,16 +44,17 @@ label{
 
 }
 
-@media(max-width: 1200px){
-    .projeto{
-        flex-direction: column-reverse;
-        padding: 8%;
-        flex-wrap: wrap;
-        
+@media(max-width: 940px){
+    .producao{
+        width: 350px;
+        height: 250px;
     }
-    .div-producao{
-        margin-bottom: 15px;
+    .preco{
+        width: 350px;
+        height: 250px;
     }
+  
+  
 
    
     
