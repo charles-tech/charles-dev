@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;400&family=Open+Sans:ital@1&display=swap');
+
+.cabecalho{
+    display: flex;
+
+}
+.projeto{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 90px;
+    padding: 10%;
+}
+.preco{
+    width: 640px;
+    height: 400px;
+}
+.producao{
+    width: 640px;
+    height: 400px;
+}
+.div-preco{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.div-producao{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+label{
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+
+}
+
+@media(max-width: 1200px){
+    .projeto{
+        flex-direction: column-reverse;
+        padding: 8%;
+        flex-wrap: wrap;
+        
+    }
+    .div-producao{
+        margin-bottom: 15px;
+    }
+
+   
+    
+  
+}
